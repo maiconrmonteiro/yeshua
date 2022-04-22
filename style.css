@@ -1,0 +1,116 @@
+ header {
+	 background: #FFDEAD
+ }
+
+ .caixa {
+ 	position: relative;
+ 	width: 940px;
+ 	margin: 0 auto;
+ }
+
+ .produtos {
+ 	width: 940px;
+ 	margin: 0 auto;
+ 	padding: 50px 0;
+ }
+
+ .produtos li {
+ 	display: inline-block;
+ 	text-align: center;
+ 	width: 30%;
+ 	vertical-align: top;
+ 	margin: 0 1.5%;
+ 	padding: 30px 20px;
+ 	box-sizing: border-box;
+ 	border-color: #593200;
+ 	border-width: 6px;
+ 	border-style: solid;
+ 	border-radius: 10px;
+ }
+
+ .produtos li:hover {
+ 	border-color: #C78C19;
+
+ }
+
+ .produtos li:hover h2 {
+ 	font-size: 35px;
+ }
+
+	 
+.produtos li:active {
+	border-color: green;
+
+}
+
+ .produtos h2 {
+ 	font-size: 30px;
+ 	font-weight: bold;
+ }
+
+ .produto-descricao {
+ 	font-size: 18px;
+ }
+
+ .produto-preco {
+ 	font-size: 22px;
+ 	font-weight: bold;
+ 	margin-top: 10px;
+
+ }
+
+nav {
+	position: absolute;
+	top: 6rem;
+    right: 0;
+}
+ 
+nav li {
+	display: inline;
+	margin: 0 0 0 15px;
+ }
+
+nav a {
+	text-transform: uppercase;
+	color: #593200;
+	font-weight: bold;
+	font-size: 22px;
+	text-decoration: none;
+}
+
+nav a:hover {
+	color: #C78C19;
+	text-decoration: underline;
+}
+
+footer {
+	background:#FFDEAD;
+	text-align: center;
+	padding: 40px 0;
+}
+
+.copyright {
+	font-size: 15px;
+	margin: 20px 0 0;
+}
+
+.credito {
+	font-size: 20;
+	text-decoration: none;
+}
+
+.maincontato {
+	width: 940px;
+	margin: 0 auto;
+	font-size: 20px;
+}
+
+form {
+	margin: 40px 0;
+}
+
+.inputformulario {
+	display: block;
+	margin: 0 0 20px;
+	padding: 5px 25px;
+}
